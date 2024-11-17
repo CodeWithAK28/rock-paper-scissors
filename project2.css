@@ -1,0 +1,178 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  align-items: center;
+  color: #d4a373;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  background-color: #e9edc9;
+}
+#gamezone {
+  /* background-color: #fefae0; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 4rem;
+  margin: 4rem;
+}
+body {
+  background-color: #fefae0;
+}
+
+#player1 {
+  background-color: #ccd5ae;
+  height: 80px;
+  width: 150px;
+  text-align: center;
+  place-content: center;
+  border: solid #e9edc9 5px;
+  border-radius: 10px;
+}
+#player2 {
+  background-color: #ccd5ae;
+  height: 80px;
+  width: 150px;
+  text-align: center;
+  place-content: center;
+  border: solid #e9edc9 5px;
+  border-radius: 10px;
+}
+#box {
+  /* height: 10rem;
+  width: 10rem;
+  background-color: #faedcd;
+  place-content: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  /* margin: 20px;
+  padding: 10px;
+  border: solid #ffebb7 5px;
+  border-radius: 10px; */
+}
+#stone {
+  height: 10rem;
+  width: 10rem;
+  background-color: #faedcd;
+  place-content: center;
+  margin: 20px;
+  padding: 20px;
+  font-size: 20px;
+  border: solid #ffebb7 5px;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  object-fit: cover;
+}
+#paper {
+  height: 10rem;
+  width: 10rem;
+  background-color: #faedcd;
+  place-content: center;
+  margin: 20px;
+  padding: 20px;
+  font-size: 20px;
+  border: solid #ffebb7 5px;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  object-fit: cover;
+}
+#scissors {
+  height: 10rem;
+  width: 10rem;
+  font-size: 20px;
+  background-color: #faedcd;
+  place-content: center;
+  margin: 20px;
+  padding: 20px;
+  border: solid #ffebb7 5px;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  object-fit: cover;
+}
+
+#stoneimg {
+  place-content: center;
+  padding: 5px;
+}
+
+#paperimg {
+  place-content: center;
+  padding: 5px;
+}
+
+#scissorsimg {
+  place-content: center;
+  padding: 5px;
+}
+
+#result {
+  place-content: center;
+  text-align: center;
+  margin: 40px;
+  padding: 20px;
+  font-size: 50px;
+  color: #d4a373;
+  height: fit-content;
+  /* background-color: #ffebb7; */
+  /* display: inline; */
+}
+
+#start {
+  height: 50px;
+  width: 150px;
+  font-size: 20px;
+  place-content: center;
+  text-align: center;
+  background-color: #faedcd;
+  border: solid #d4a373 2px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+}
+#stone:hover {
+  opacity: 85%;
+  cursor: pointer;
+  border: solid #0f0101 4px;
+}
+#paper:hover {
+  opacity: 85%;
+  cursor: pointer;
+  border: solid #0f0101 4px;
+}
+#scissors:hover {
+  opacity: 85%;
+  cursor: pointer;
+  border: solid #0f0101 4px;
+}
+#userscr {
+  font-size: 3rem;
+}
+#compscr {
+  font-size: 3rem;
+}
+#you,
+#comp {
+  font-size: 1rem;
+}
